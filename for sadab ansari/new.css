@@ -1,0 +1,153 @@
+body
+{
+    font-style: Arial;
+    background: black;
+
+}
+.animation-box
+{
+    width: 75%;
+    height: 27.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.first-text
+{
+    font-size: 4.0rem;
+    color: rgb(76, 18, 236);
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: ashiqecoding1;
+    animation-duration: 5s;
+}
+.second-text
+{
+    font-size: 3.0rem;
+    color: rgb(155, 238, 22);
+    position: absolute;
+    
+    top: 8rem;
+    opacity: 0;
+    animation-name: ashiqecoding2;
+    animation-duration: 5s;
+    animation-delay: 4.5s;
+}
+.third-text
+{
+    font-size: 4.0rem;
+    color: rgb(204, 55, 55);
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    opacity: 0;
+    animation-name: ashiqecoding3;
+    animation-duration: 5s;
+    animation-delay: 9s;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+.forth-text
+{
+    font-size: 3.0rem;
+    color: rgb(219, 153, 30);
+    position: absolute;
+    left: 10%;
+    top: 10rem;
+    opacity: 0;
+    animation-name: ashiqecoding4;
+    animation-duration: 12s;
+    animation-delay: 10s;
+}
+.fifth-text
+{
+    font-size: 2.5rem;
+    color: rgb(158, 21, 147);
+    position: center;
+    left: 30%;
+    bottom: 10rem;
+    opacity: 0;
+    animation-name: ashiqecoding5;
+    animation-duration: 16s;
+    animation-delay: 5s;
+}
+@keyframes ashiqecoding1
+{
+    0%
+    {
+        top: -3rem;
+        opacity: 0;
+    }
+    75%
+    {
+        top: 25%;
+        opacity: 1;
+    } 100%
+    {
+        opacity: 0;
+    }
+}
+@keyframes ashiqecoding2
+{
+    0%
+    {
+        top: -3rem;
+        opacity: 0;
+    }
+    75%
+    {
+        top: 45%;
+        opacity: 1;
+    } 100%
+    {
+        opacity: 0;
+    }
+}@keyframes ashiqecoding3
+{
+    0%
+    {
+        top: -3rem;
+        opacity: 0;
+    }
+    75%
+    {
+        top: 45%;
+        opacity: 1;
+    } 100%
+    {
+        opacity: 0;
+    }
+}@keyframes ashiqecoding4
+{
+    0%
+    {
+        top: -3rem;
+        opacity: 0;
+    }
+    75%
+    {
+        right: 10rem;
+        opacity: 1;
+    } 100%
+    {
+        
+        opacity: 0;
+    }
+}@keyframes ashiqecoding5
+{
+    0%
+    {
+        
+        opacity: 0;
+    }
+    75%
+    {
+        
+        opacity: 1;
+    } 100%
+    {
+        opacity: 0;
+    }
+}
